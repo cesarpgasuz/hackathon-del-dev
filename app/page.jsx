@@ -1,7 +1,15 @@
-
+import Header from "@/components/Header";
+import Estadisticas from "@/components/Estadisticas";
+import Info from "@/components/Info";
+import Patrocinadores from "@/components/Patrocinadores";
 
 export default function Home() {
   return (
-    <h1>La Hackaton del Dev - Rediseño</h1>
+   <>
+    <Header />
+    <Estadisticas />
+    <Info />
+    <Patrocinadores />
+   </>
   );
 }

@@ -11,9 +11,9 @@ const Faqs = () => {
 
     
   return (
-    <section className="contenedor py-10">
-        <h2 className="text-center text-h-gray-1 text-2xl mb-10 font-bold">Faqs</h2>
-        <div className="w-full">
+    <section className="contenedor py-10 md:py-14">
+        <h2 className="text-center text-h-gray-1 text-2xl mb-10 font-bold md:text-[32px] md:mb-[60px]">Faqs</h2>
+        <div className="w-full md:w-[512px] md:mx-auto lg:w-[600px]">
         <Accordion type="single" collapsible>
             {FAQS.map(faq => (
                 <AccordionItem value={`item-${faq.id}`} key={faq.id} className="border-b-h-blue-3">

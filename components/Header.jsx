@@ -12,8 +12,8 @@ const Header = () => {
   return (
     <>
         <header className="contenedor py-[60px]">
-            <h1 className="text-h-gray-1 text-[28px] leading-[64px]">La Hackathon del <br /><span className={`${redHatText.className} text-[64px] font-bold text-h-green-1`}>DEV</span></h1>
-            <span className="text-h-purple-1 font-semibold text-2xl">Edición 2024</span>
+            <h1 className="text-h-gray-1 text-[28px] leading-[64px] md:text-4xl md:leading-[72px] lg:text-5xl lg:leading-[92px]">La Hackathon del <br /><span className={`${redHatText.className} text-[64px] font-bold text-h-green-1 md:text-[96px] lg:text-[128px]`}>DEV</span></h1>
+            <span className="text-h-purple-1 font-semibold text-2xl lg:text-[32px]">Edición 2024</span>
         </header>
         <div className="contenedor">
             <div className="flex gap-4 items-center">

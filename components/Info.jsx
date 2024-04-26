@@ -7,9 +7,9 @@ import Free from "./icons/Free"
 
 const Info = () => {
   return (
-    <section className="contenedor py-10">
-        <h2 className="text-center text-h-gray-1 text-2xl mb-10 font-bold">¿En que consiste?</h2>
-        <div className="grid gap-10">
+    <section className="contenedor py-10 md:py-14">
+        <h2 className="text-center text-h-gray-1 text-2xl mb-10 font-bold md:text-[32px] md:mb-[60px]">¿En que consiste?</h2>
+        <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4 md:gap-6 lg:gap-12">
            <InfoItem>
                 <People className="h-[53px] w-[53px] shrink-0" fill="#E2E8F0" />
             <p>Máximo de 4 Miembros por equipo</p>
@@ -28,7 +28,7 @@ const Info = () => {
             </InfoItem> 
         </div>
 
-        <Link href='#' className="bg-h-purple-1 text-h-gray-1 block py-3 text-center rounded mt-14">Ver Reglamento</Link>
+        <Link href='#' className="bg-h-purple-1 text-h-gray-1 block py-3 text-center rounded mt-14 md:mt-16 md:w-[240px] md:mx-auto">Ver Reglamento</Link>
         
     </section>
   )

@@ -4,8 +4,8 @@ import styles from '@/styles/Styles.module.css'
 import Banderas from "./ui/Banderas"
 const Estadisticas = () => {
   return (
-    <section className="contenedor py-10 text-h-gray-1">
-        <div className="grid gap-6">
+    <section className="contenedor py-10 md:py-14 text-h-gray-1">
+        <div className={`grid gap-6 ${styles.bento}`}>
             <Banderas />
             <div 
               className={`bg-h-blue-2 border border-h-blue-3 rounded h-[148px] bg-[url('/images/programador.jpg')] bg-cover bg-no-repeat bg-center before:content-none flex items-end px-6 py-4 relative ${styles.imageEst}`}>

@@ -6,9 +6,9 @@ export const PATROCINADORES = [
 ]
 
 export const EFECTIVO = [
-    {id: 1, cantidad: 400, image: 'oro'},
-    {id: 2, cantidad: 250, image: 'plata'},
-    {id: 3, cantidad: 150, image: 'bronce'}
+    {id: 1, cantidad: 400, image: 'oro', orden: 2},
+    {id: 2, cantidad: 250, image: 'plata', orden: 1},
+    {id: 3, cantidad: 150, image: 'bronce', orden: 3}
 ]
 
 export const PRODUCTOS = [

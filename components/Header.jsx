@@ -16,15 +16,15 @@ const Header = () => {
             <span className="text-h-purple-1 font-semibold text-2xl">Edición 2024</span>
         </header>
         <div className="contenedor">
-            <div className="flex">
-                <img src='https://unavatar.io/github/jmontes33' alt='josé ramón' className="rounded-full h-[40px] w-[40px]" />
+            <div className="flex gap-4 items-center">
+                <img src='https://unavatar.io/github/jmontes33' alt='josé ramón' className="rounded-full h-[65px] w-[65px]" />
                 <div>
-                    <p className="text-h-gray-1 text-xs">Jose Ramon Montes Hermida</p>
-                    <a href="https://github.com/jmontes33" target="_blank" rel="noopener" className="text-xs no-underline text-h-gray-2">@jmontes33</a>
+                    <p className="text-h-gray-1 text-base">Jose Ramon Montes Hermida</p>
+                    <a href="https://github.com/jmontes33" target="_blank" rel="noopener noreferrer" className="text-sm no-underline text-h-gray-2">@jmontes33</a>
                 </div>
             </div>
-            <p>¡Hola a todos los apasionados de la tecnología y la innovación!</p>
-            <p>Como desarrollador, me emociona enormemente invitarlos a todos a participar en nuestra próxima hackathon. ¿Por qué? Porque las hackathons son mucho más que simplemente un evento; son un espacio donde la creatividad, el ingenio y la colaboración se unen para crear soluciones impactantes.</p>
+            <p className="text-h-gray-2 mt-8 text-sm leading-7">¡Hola a todos los apasionados de la tecnología y la innovación!</p>
+            <p className="text-h-gray-2 mt-5 text-sm leading-8">Como desarrollador, me emociona enormemente invitarlos a todos a participar en nuestra próxima hackathon. ¿Por qué? Porque las hackathons son mucho más que simplemente un evento; son un espacio donde la creatividad, el ingenio y la colaboración se unen para crear soluciones impactantes.</p>
         </div>
     </>
     

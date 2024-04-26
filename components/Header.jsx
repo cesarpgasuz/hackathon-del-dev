@@ -20,7 +20,7 @@ const Header = () => {
                 <img src='https://unavatar.io/github/jmontes33' alt='josé ramón' className="rounded-full h-[65px] w-[65px]" />
                 <div>
                     <p className="text-h-gray-1 text-base">Jose Ramon Montes Hermida</p>
-                    <a href="https://github.com/jmontes33" target="_blank" rel="noopener noreferrer" className="text-sm no-underline text-h-gray-2">@jmontes33</a>
+                    <a href="https://www.instagram.com/elrincondeldev" target="_blank" rel="noopener noreferrer" className="text-sm no-underline text-h-gray-2 border-b-[2px] pb-[2px] border-b-h-blue-3">@elrincondeldev</a>
                 </div>
             </div>
             <p className="text-h-gray-2 mt-8 text-sm leading-7">¡Hola a todos los apasionados de la tecnología y la innovación!</p>

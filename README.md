@@ -5,15 +5,15 @@
 
 </div>
 
- ## About The Project
+ ## Acerca del proyecto
 
-![Product Screenshot](https://ibb.co/nR5h6xV)
+![Product Screenshot](https://hackatondeldev-r.vercel.app/images/screen.png)
 
 Para la Hackathon del dev hice el rediseño de la landingpage, (solo es la landingpage)
- ## Usage
+ ## Tecnologias
 
 Use Next.js y Tailwind Css
- ## Acknowledgments
+ ## Demo
 
 Pueden ver una preview en la siguiente liga.
 

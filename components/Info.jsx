@@ -28,7 +28,7 @@ const Info = () => {
             </InfoItem> 
         </div>
 
-        <Link href='/reglamento' className="bg-h-purple-1 text-h-gray-1 block py-3 text-center rounded mt-14">Ver Reglamento</Link>
+        <Link href='#' className="bg-h-purple-1 text-h-gray-1 block py-3 text-center rounded mt-14">Ver Reglamento</Link>
         
     </section>
   )

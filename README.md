@@ -7,7 +7,7 @@
 
  ## Acerca del proyecto
 
-![Product Screenshot](https://hackatondeldev-r.vercel.app/images/screen.png)
+![Product Screenshot](https://lahackathondeldev.vercel.app/images/screen.png)
 
 Para la Hackathon del dev hice el rediseño de la landingpage, (solo es la landingpage)
  ## Tecnologias

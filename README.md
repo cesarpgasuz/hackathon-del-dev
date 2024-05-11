@@ -18,4 +18,4 @@ Use Next.js y Tailwind Css
 Pueden ver una preview en la siguiente liga.
 
 
-- [preview](https://hackatondeldev-r.vercel.app/)
+- [preview](https://lahackathondeldev.vercel.app/)
